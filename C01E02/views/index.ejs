@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <p class="titulo"><%= ejercicio %></p>
+
+    <p class="instrucciones">Agregue una lista no numerada
+      (etiqueta <span class="etiqueta"><span class="simbolo"><</span>ul<span
+          class="simbolo">></span></span>)
+      con los elementos: <span class="texto">Manta, Guayaquil, Otavalo,
+        Gualaceo, Quito, Machala y Cuenca</span>
+    </p>
+
+    <div class="respuesta">
+      <!-- Inicio -->
+      <ul>
+        <li>Manta</li>
+        <li>Guayaquil</li>
+        <li>Otavalo</li>
+        <li>Gualaceo</li>
+        <li>Quito</li>
+        <li>Machala</li>
+        <li>Cuenca</li>
+      </ul>
+      <!-- Fin -->
+    </div>
+
+    <p class="instrucciones">Agregue una lista numerada
+      (etiqueta <span class="etiqueta"><span class="simbolo"><</span>ol<span
+          class="simbolo">></span></span>)
+      con los elementos: <span class="texto">Julio, Carmen, Elena e
+        Ignacio</span>
+    </p>
+
+    <div class="respuesta">
+      <!-- Inicio -->
+      <ol>
+        <li>Julio</li>
+        <li>Carmen</li>
+        <li>Elena</li>
+        <li>Ignacio</li>
+      </ol>
+      <!-- Fin -->
+    </div>
+
+    <p class="instrucciones">Agregue una lista numerada
+      (etiqueta <span class="etiqueta"><span class="simbolo"><</span>ol<span
+          class="simbolo">></span></span>) con estilo romanos en mayúsculas
+      (atributo <span class="etiqueta">type</span> con valor <span
+        class="etiqueta">I</span>), con los elementos: <span
+        class="texto">Capítulo 1, Capítulo 2, Capítulo 3, Conclusiones y
+        Recomendaciones</span>
+    </p>
+
+    <div class="respuesta">
+      <!-- Inicio -->
+      <ol type="I">
+        <li>Capítulo 1</li>
+        <li>Capítulo 2</li>
+        <li>Capítulo 3</li>
+        <li>Conclusiones</li>
+        <li>Recomendaciones</li>
+      </ol>
+      <!-- Fin -->
+    </div>
+
+    <p class="instrucciones">Agregue una lista no numerada
+      (etiqueta <span class="etiqueta"><span class="simbolo"><</span>ul<span
+          class="simbolo">></span></span>) anidada, con los elementos: <span
+        class="texto">Colombia, Perú y Chile</span>. Para cada elemento no
+      numerado, para Colombia debe colocar una lista numerada: <span
+        class="texto">Bogotá, Cali y Cartagena</span>, para Perú debe colocar
+      una lista numerada: <span class="texto">Chiclayo y Piura</span>, y para
+      Chile debe colocaruna lista numerada: <span class="texto">Iquique,
+        Valparaíso y Antofagasta</span>
+    </p>
+
+    <div class="respuesta">
+      <!-- Inicio -->
+      <ul>
+        <li>Colombia</li>
+          <ol>
+            <li>Bogotá</li>
+            <li>Cali</li>
+            <li>Cartagena</li>
+          </ol>
+        <li>Perú</li>
+          <ol>
+            <li>Chiclayo</li>
+            <li>Piura</li>
+          </ol>
+        <li>Chile</li>
+          <ol>
+            <li>Iquique</li>
+            <li>Valparaíso</li>
+            <li>Antofagasta</li>
+          </ol>
+      </ul>
+      <!-- Fin -->
+    </div>
+
+    <p class="instrucciones">Agregue una tabla
+      (etiqueta <span class="etiqueta"><span class="simbolo"><</span>table<span
+          class="simbolo">></span></span>) con las filas (etiqueta <span
+        class="etiqueta"><span class="simbolo"><</span>tr<span
+          class="simbolo">></span></span>): cabecera de fila (etiqueta <span
+        class="etiqueta"><span class="simbolo"><</span>th<span
+          class="simbolo">></span></span>) <span class="texto">Windows</span>,
+      valor (etiqueta <span class="etiqueta"><span
+          class="simbolo"><</span>td<span class="simbolo">></span></span>) <span
+        class="texto">325</span>; cabecera de fila <span
+        class="texto">MacOS</span>, valor <span class="texto">102</span>; y
+      cabecera de fila <span class="texto">Linux</span>, valor <span
+        class="texto">50</span>. El subtítulo de la tabla es <span
+        class="texto">Datos de descarga por Sistema Operativo</span>.
+    </p>
+
+    <div class="respuesta">
+      <!-- Inicio -->
+      <table>
+        <caption> Datos de descarga por Sistema Operativo </caption>
+        <tr>
+          <th>Windows</th>
+          <td>325</td>
+        </tr>
+        <tr>
+          <th>MacOS</th>
+          <td>102</td>
+        </tr>
+        <tr>
+          <th>Linux</th>
+          <td>50</td>
+        </tr>
+      </table>
+      <!-- Fin -->
+    </div>
+
+    <p class="instrucciones">Agregue una tabla
+      (etiqueta <span class="etiqueta"><span class="simbolo"><</span>table<span
+          class="simbolo">></span></span>) con cabecera (etiqueta <span
+        class="etiqueta"><span class="simbolo"><</span>th<span
+          class="simbolo">></span></span>) de tabla: <span class="texto">Mes,
+        Enero, Febrero y Marzo</span>, y con las filas: cabecera de fila <span
+        class="texto">Windows</span>, valor para Enero <span
+        class="texto">100</span>, Febrero <span class="texto">25</span>, y Marzo
+      <span class="texto">200</span>; cabecera de fila <span
+        class="texto">MacOS</span>, valor para Enero <span
+        class="texto">30</span>, Febrero <span class="texto">72</span>, y Marzo
+      <span class="texto">0</span>; y cabecera de fila <span
+        class="texto">Linux</span>, valor para Enero <span
+        class="texto">15</span>, Febrero <span class="texto">20</span>, y Marzo
+      <span class="texto">15</span>. El subtítulo de la tabla es <span
+        class="texto">Datos de descarga por Sistema Operativo y por Mes</span>.
+      La tabla tiene borde (atributo <span class="etiqueta">border</span> con
+      valor <span class="etiqueta">1</span>) de tamaño 1 y alineado (atributo
+      <span class="etiqueta">align</span> con valor <span
+        class="etiqueta">center</span>) al centro.
+    </p>
+
+    <div class="respuesta">
+      <!-- Inicio -->
+      <table border="1" align="center">
+        <caption>Datos de descarga por Sistema Operativo y por Mes</caption>
+        <tr>
+          <th>Mes</th>
+          <th>Enero</th>
+          <th>Febrero</th>
+          <th>Marzo</th>
+        </tr>
+        <tr>
+          <th>Windows</th>
+          <td>100</td>
+          <td>25</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <th>MacOS</th>
+          <td>30</td>
+          <td>72</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <th>Linux</th>
+          <td>15</td>
+          <td>20</td>
+          <td>15</td>
+        </tr>
+      </table>
+      <!-- Fin -->
+    </div>
+
+  </body>
+</html>
