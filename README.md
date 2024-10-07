@@ -15,4 +15,19 @@ Por ejemplo:
 
 Para esta actividad, haga una captura de pantalla del resultado de la ejecución del comando anterior DE CADA UNO de los ejercicios, por ejemplo:
 
-results
+## Resultados
+
+<img width="163" alt="image" src="https://github.com/user-attachments/assets/fec50953-3420-4079-9607-a0f77dfadeac">
+<img width="163" alt="image" src="https://github.com/user-attachments/assets/2c7ab384-1ccd-476b-b7e8-3c0d7fe66453">
+<img width="163" alt="image" src="https://github.com/user-attachments/assets/561899a8-e08b-4631-a59a-75e9f9e98ddf">
+<img width="163" alt="image" src="https://github.com/user-attachments/assets/d9361792-fe7d-431a-b188-404d0720f418">
+<img width="163" alt="image" src="https://github.com/user-attachments/assets/6088ed03-2d43-494b-855b-30db2456ef74">
+<img width="163" alt="image" src="https://github.com/user-attachments/assets/df8a036e-28aa-4cca-9f35-002b719958bc">
+
+
+## Codigo
+-  [Ejercicio 1](https://github.com/Desarrollo-Aplicaciones-Web-y-Moviles/Actividad-Previa-01/tree/main/C01E01)
+-  [Ejercicio 2](https://github.com/Desarrollo-Aplicaciones-Web-y-Moviles/Actividad-Previa-01/tree/main/C01E02)
+-  [Ejercicio 3](https://github.com/Desarrollo-Aplicaciones-Web-y-Moviles/Actividad-Previa-01/tree/main/C01E03)
+-  [Ejercicio 4](https://github.com/Desarrollo-Aplicaciones-Web-y-Moviles/Actividad-Previa-01/tree/main/C01E04)
+-  [Ejercicio 5](https://github.com/Desarrollo-Aplicaciones-Web-y-Moviles/Actividad-Previa-01/tree/main/C01E05)
