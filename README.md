@@ -31,3 +31,4 @@ Para esta actividad, haga una captura de pantalla del resultado de la ejecución
 -  [Ejercicio 3](https://github.com/Desarrollo-Aplicaciones-Web-y-Moviles/Actividad-Previa-01/tree/main/C01E03)
 -  [Ejercicio 4](https://github.com/Desarrollo-Aplicaciones-Web-y-Moviles/Actividad-Previa-01/tree/main/C01E04)
 -  [Ejercicio 5](https://github.com/Desarrollo-Aplicaciones-Web-y-Moviles/Actividad-Previa-01/tree/main/C01E05)
+-  [Ejercicio 6](https://github.com/Desarrollo-Aplicaciones-Web-y-Moviles/Actividad-Previa-01/tree/main/C01E06)
