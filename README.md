@@ -3,7 +3,7 @@
 ## Orden
 Hola,
 Acceda al [repositorio de Github](https://github.com/DAWMFIEC/DAWM)
- en la rama main, y realice Capítulo01/ejercicio01 al Capítulo01/ejercicio06. 
+ en la rama main, y realice **Capítulo01/ejercicio01 al Capítulo01/ejercicio06.** 
 En cada ejercicio, ejecute los test, muestre (comando echo (Enlaces a un sitio externo.)) su nombre y el nombre ejercicio correspondiente, con el comando: 
 ```bash
 npm test && echo "SU NOMBRE COMPLETO" && echo "Cxx/Eyy"
